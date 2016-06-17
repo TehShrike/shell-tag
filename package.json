@@ -1,0 +1,25 @@
+{
+  "name": "shell-tag",
+  "version": "1.0.0",
+  "description": "[![NPM](https://nodei.co/npm/shell-tag.png)](https://nodei.co/npm/shell-tag/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehShrike/shell-tag.git"
+  },
+  "keywords": [
+    "es6",
+    "tag",
+    "template",
+    "shell"
+  ],
+  "author": "TehShrike",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/TehShrike/shell-tag/issues"
+  },
+  "homepage": "https://github.com/TehShrike/shell-tag#readme"
+}
