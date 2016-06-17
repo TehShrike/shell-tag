@@ -1,5 +1,7 @@
 Because sometimes you want to write shell scripts with JavaScript instead of bash.
 
+Uses the shell escaping of [shell-escape-tag](https://github.com/chocolateboy/shell-escape-tag).
+
 # Usage
 
 ```js
