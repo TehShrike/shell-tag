@@ -7,7 +7,7 @@ Uses the shell escaping of [shell-escape-tag](https://github.com/chocolateboy/sh
 ```js
 const sh = require('shell-tag')
 
-const output = sh`ls -1`
+const lsOutput = sh`ls -1`
 
 // => "index.js
 // node_modules
@@ -15,7 +15,18 @@ const output = sh`ls -1`
 // readme.md
 // test-helper
 // test.js"
+```
 
+You can even use javascript variables inside your bash code!
+
+```js
+const sh = require('shell-tag')
+
+const str = 'say "what"'
+
+const echoOutput = sh`echo ${str}`
+
+// => say "what"
 ```
 
 Throws errors if a non-0 exit code is returned.  Otherwise, returns the string from stdout.
