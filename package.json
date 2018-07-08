@@ -4,7 +4,7 @@
   "description": "Run shell commands inline in JavaScript with ES6 template strings",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,9 @@
     "url": "https://github.com/TehShrike/shell-tag/issues"
   },
   "homepage": "https://github.com/TehShrike/shell-tag#readme",
-  "devDependencies": {
-    "tape": "4.5.1"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "shell-escape-tag": "^1.2.1"
+    "shell-escape-tag": "^1.2.1",
+    "zora": "2.0.1"
   }
 }
