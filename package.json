@@ -26,6 +26,6 @@
     "zora": "2.0.1"
   },
   "dependencies": {
-    "shell-escape-tag": "^1.2.1"
+    "@tehshrike/shell-escape-tag": "~1.2.2"
   }
 }
