@@ -22,9 +22,10 @@
     "url": "https://github.com/TehShrike/shell-tag/issues"
   },
   "homepage": "https://github.com/TehShrike/shell-tag#readme",
-  "devDependencies": {},
-  "dependencies": {
-    "shell-escape-tag": "^1.2.1",
+  "devDependencies": {
     "zora": "2.0.1"
+  },
+  "dependencies": {
+    "shell-escape-tag": "^1.2.1"
   }
 }
