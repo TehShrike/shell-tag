@@ -26,6 +26,6 @@
     "tape": "4.5.1"
   },
   "dependencies": {
-    "shell-escape-tag": "1.0.0"
+    "shell-escape-tag": "^1.2.1"
   }
 }
