@@ -1,6 +1,6 @@
 Because sometimes you want to write shell scripts with JavaScript instead of bash.
 
-Uses the shell escaping of [shell-escape-tag](https://github.com/chocolateboy/shell-escape-tag).
+Uses [a fork of shell-escape-tag](https://github.com/TehShrike/shell-escape-tag) to escape values.
 
 # Usage
 
