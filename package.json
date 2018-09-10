@@ -4,7 +4,7 @@
   "description": "Run shell commands inline in JavaScript with ES6 template strings",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js | faucet"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/TehShrike/shell-tag#readme",
   "devDependencies": {
+    "faucet": "0.0.1",
     "zora": "2.0.1"
   },
   "dependencies": {
