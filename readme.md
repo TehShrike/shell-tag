@@ -31,6 +31,21 @@ const echoOutput = sh`echo ${str}`
 
 Throws errors if a non-0 exit code is returned.  Otherwise, returns the string from stdout.
 
+
+An async version is available:
+
+```js
+const sh = require('shell-tag/async')
+
+const str = 'say "what"'
+
+(async() => {
+	const echoOutput = await sh`cat package.json | grep name`
+
+	// => '  "name": "shell-tag",\n'
+})()
+```
+
 # License
 
 [WTFPL](http://wtfpl2.com/)
