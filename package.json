@@ -1,6 +1,6 @@
 {
   "name": "shell-tag",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Run shell commands inline in JavaScript with ES6 template strings",
   "main": "index.js",
   "scripts": {
