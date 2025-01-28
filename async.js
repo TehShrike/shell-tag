@@ -1,6 +1,6 @@
-const shellEscape = require(`@tehshrike/shell-escape-tag`)
-const util = require(`util`)
-const cp = require(`child_process`)
+const shellEscape = require('@tehshrike/shell-escape-tag')
+const util = require('util')
+const cp = require('node:child_process')
 const exec = util.promisify(cp.exec)
 
 module.exports = async function sh(...args) {
