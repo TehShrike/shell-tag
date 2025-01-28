@@ -5,7 +5,7 @@ Uses [a fork of shell-escape-tag](https://github.com/TehShrike/shell-escape-tag)
 # Usage
 
 ```js
-const sh = require('shell-tag')
+import sh from 'shell-tag'
 
 const lsOutput = sh`ls -1`
 
@@ -20,7 +20,7 @@ const lsOutput = sh`ls -1`
 You can even use javascript variables inside your bash code!
 
 ```js
-const sh = require('shell-tag')
+import sh from 'shell-tag'
 
 const str = 'say "what"'
 
@@ -35,7 +35,7 @@ Throws errors if a non-0 exit code is returned.  Otherwise, returns the string f
 An async version is available:
 
 ```js
-const sh = require('shell-tag/async')
+import sh from 'shell-tag/async'
 
 const str = 'say "what"'
 

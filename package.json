@@ -3,8 +3,13 @@
   "version": "1.2.1",
   "description": "Run shell commands inline in JavaScript with ES6 template strings",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node test.js | faucet"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./async": "./async.js"
   },
   "repository": {
     "type": "git",

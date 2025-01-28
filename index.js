@@ -1,10 +1,10 @@
-const shellEscape = require('@tehshrike/shell-escape-tag')
-const cp = require('child_process')
+import shellEscape from '@tehshrike/shell-escape-tag'
+import { execSync } from 'child_process'
 
-module.exports = function sh(...args) {
+export default function sh(...args) {
 	const command = shellEscape(...args)
 
-	return cp.execSync(command, {
+	return execSync(command, {
 		encoding: `utf8`,
 	})
 }

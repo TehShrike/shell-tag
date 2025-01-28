@@ -1,9 +1,9 @@
-const shellEscape = require('@tehshrike/shell-escape-tag')
-const util = require('util')
-const cp = require('node:child_process')
-const exec = util.promisify(cp.exec)
+import shellEscape from '@tehshrike/shell-escape-tag'
+import { promisify } from 'node:util'
+import cp from 'node:child_process'
+const exec = promisify(cp.exec)
 
-module.exports = async function sh(...args) {
+export default async function sh(...args) {
 	const command = shellEscape(...args)
 
 	const stdio = await exec(command, {

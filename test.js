@@ -1,6 +1,6 @@
-const test = require(`zora`)
-const sh = require(`./`)
-const shasync = require(`./async`)
+import test from 'zora'
+import sh from 'shell-tag'
+import shasync from 'shell-tag/async'
 
 test(`running echo`, t => {
 	const str = `say "what"`
