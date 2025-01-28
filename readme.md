@@ -37,8 +37,6 @@ An async version is available:
 ```js
 import sh from 'shell-tag/async'
 
-const str = 'say "what"'
-
 (async() => {
 	const echoOutput = await sh`cat package.json | grep name`
 
